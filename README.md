@@ -19,6 +19,7 @@ However, masks were hardly used in the experiments.
 For example, you can run `python -d PEMS08 -g 0`.
 
 When you want to visualize the dimensionality-reduced images and heatmaps, use the following command:
+
 python visualize.py \
 --m ..data/saved_models/model_fold3_20250203_103125.pt \
 --c GRU_Transformer.yaml \
