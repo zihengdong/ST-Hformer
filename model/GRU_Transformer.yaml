@@ -39,6 +39,8 @@ METRLA:
     num_heads: 4
     num_layers: 3
     dropout: 0.1
+    fourier_embedding_dim: 32  
+    num_harmonics: 4  
 
 PEMSBAY:
   num_nodes: 325
@@ -78,6 +80,8 @@ PEMSBAY:
     num_heads: 4
     num_layers: 3
     dropout: 0.1
+    fourier_embedding_dim: 32  
+    num_harmonics: 4  
 
 PEMS04:
   num_nodes: 307
@@ -118,6 +122,8 @@ PEMS04:
     num_heads: 4
     num_layers: 3
     dropout: 0.1
+    fourier_embedding_dim: 32  
+    num_harmonics: 4  
 
 PEMS07:
   num_nodes: 883
@@ -158,6 +164,8 @@ PEMS07:
     num_heads: 4
     num_layers: 3
     dropout: 0.1
+    fourier_embedding_dim: 32  
+    num_harmonics: 4  
 
 PEMS08:
   num_nodes: 170
@@ -241,3 +249,5 @@ PEMS03:
     num_heads: 4
     num_layers: 3
     dropout: 0.1
+    fourier_embedding_dim: 32  
+    num_harmonics: 4  
