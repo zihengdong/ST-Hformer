@@ -17,7 +17,7 @@ Then run the command: `python train.py -d <dataset> -g <gpu_id> -m <MASK>`
 
 Masks can be selected from different types, including 'temporal', 'spatial', 'mixed', 'decoupled'.
 
-However, masks were hardly used in the experiments. For example, you can run `python -d PEMS08 -g 0`.
+However, masks were hardly used in the experiments. For example, you can run `python train.py -d PEMS08 -g 0`.
 
 ### When you want to visualize the dimensionality - reduced images and heatmaps:
 Use the following command:
